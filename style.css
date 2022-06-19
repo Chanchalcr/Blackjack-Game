@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: wheat; */
+  font-size: 55px;
+  font-family: sans-serif;
+}
+body {
+  /* width: 100vw; */
+  min-height: 100vh;
+  padding-top: 20vh;
+  background-image: url("https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=20&m=453187915&s=612x612&w=0&h=yDGWRSaErS7B6MPaJ8g9PyaH0JqwGk4IfwnKpnsNYEQ=");
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+}
+h1 {
+  color: goldenrod;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+p {
+  margin-bottom: 15px;
+  color: white;
+}
+#message-el {
+  font-style: italic;
+}
+#start-btn,
+#newcard-btn {
+  width: 550px;
+  color: rgb(0, 92, 0);
+  background: goldenrod;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  border: none;
+  box-shadow: 0 9px #999;
+}
+
+#newcard-btn:active {
+  background-color: goldenrod;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#start-btn:active {
+  background-color: goldenrod;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#player-el {
+  margin-top: 20px;
+  font-weight: 100;
+  font-style: italic;
+}
